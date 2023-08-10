@@ -6,8 +6,9 @@
 @import url("/css/sections/hero.css");
 @import url("/css/sections/about.css");
 @import url("/css/sections/popular.css");
-/*@import url("sections/trending.css");
-@import url("sections/subscribe.css");
+@import url("/css/sections/trending.css");
+
+/*@import url("sections/subscribe.css");
 @import url("sections/footer.css"); */
 
 /* CSS variables for reusablity across all files (including above imported) */
@@ -288,7 +289,7 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
 
